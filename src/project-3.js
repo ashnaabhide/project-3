@@ -1,28 +1,67 @@
 import { LitElement, html, css } from 'lit';
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
+const meow=new URL('../assets/meow.jpeg', import.meta.url).href;
 
 class Project3 extends LitElement {
-  static properties = {
-    media: { type: String },
-    name: {type: String}, 
-    title: {type: String}, 
-    company: {type: String}, 
-    personalImage: {type: String}, 
+  static get properties() {
+    return{
+      photoDetails: {type: String},
+      media: { type: String },
+      name: {type: String}, 
+      title: {type: String}, 
+      company: {type: String}, 
+      personalImage: {type: String}, 
+      photoName: {type: String}, 
+    }
+   
   }
 
-  static styles = css`
+  static get styles(){
+    return css`
     :host {
-      
+    }
+    .container{
+      background-color: #808080;
+      color: white;
+      text-align: center-left;
+      width: 500px;
+      height: 100px;
+      border-radius: 5px;
     }
 
-    .wrapper{
+   
 
+    .wrapper{
+      background-color: #3e98d3;
+      color: white;
+      text-align: center-left;
+      width: 200px;
+      height: 60px;
+      border-radius: 5px;
+     
+
+
+    }
+    .changeImgBtn{
+      width: 100px;
+      height: 50px;
+      background-image: url(meow); //is this right
+
+    }
+
+    .meow{
+      width: 10px;
+
+
+    }
+
+    .photoName{
+      width: auto;
+      font-size: 2em;
 
     }
 
     //something for media idk
-
     .name{
 
     }
@@ -39,10 +78,13 @@ class Project3 extends LitElement {
 
     }
   `;
+  
+  } 
 
   constructor() {
     super();
     this.media = " ";
+    this.photoName = "CHANGE PHOTO";
     this.name = "JOHN";
     this.title="media";
     this.company="uhhhh";
@@ -52,19 +94,13 @@ class Project3 extends LitElement {
 
   render() {
     return html`
-      <div class="card">
+      <div class="container">
+        <div>${this.photoName}</div> 
         <div class="wrapper">
-          <h3>Change Photo</h3>
-
-
-
-
-
-
-
-
+        
         </div> <!--wrapper-->
-      </div> <!--card-->
+        </div><!--color options bar-->
+        </div><!--container-->
     `;
   }
 }

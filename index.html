@@ -12,17 +12,38 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
+      font-family: arial; /* font only changes from here?? */
       background-color: #ededed;
+    }
+
+    project-3{
+      margin: 100px;
+      padding: 100px;
     }
   </style>
   <title>project-3</title>
 </head>
 
 <body>
+ <!-- <project-3></project-3> -->
+ <div class="buttons"> <!-- use part with this -->
+  <button type="changeImgBtn">change image
+    <img src="../assets/meow.jpeg">
+  </button>
+  <button class="modifytitle">modify title</button>
+  <button id="deletelastcard">delete</button>
+  <button data-toggle-btn>toggle</button>
+  <button class="bg-color">change color</button>
+
   <project-3></project-3>
 
-  <script type="module" src="./src/project-3.js"></script>
+  <script type="module">
+    import "./src/project-3.js";
+  </script>
+  <script>
+    //stuff
+  </script>
+
 </body>
 
 </html>
