@@ -42,11 +42,8 @@ class Project3 extends LitElement {
 
 
     }
-    .changeImgBtn{
-      width: 100px;
-      height: 50px;
-      background-image: url(meow); //is this right
-
+    .button{
+      
     }
 
     .meow{
