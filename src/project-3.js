@@ -37,24 +37,14 @@ class Project3 extends LitElement {
     .wrapper{
       background-color: #3e98d3;
       color: white;
+      margin: 20px 5px;
       text-align: center-left;
       width: 200px;
       height: 60px;
       border-radius: 5px;
-     
 
 
     }
-    .changeimage{
-      float: left;
-      margin-top: 10px;
-    }
-
-.upload{
-      float:left;
-      margin-top: 10px;
-      margin-left: 10px;
-}
 
 
     .meow{
@@ -63,11 +53,8 @@ class Project3 extends LitElement {
 
     }
 
-    .photoName{
-      width: auto;
-      font-size: 2em;
+    
 
-    }
 
     //something for media idk
     .name{
@@ -103,8 +90,9 @@ class Project3 extends LitElement {
   render() {
     return html`
       <div class="container">
-        <div>${this.photoName}</div> 
-        <div class="wrapper">
+      <div class="wrapper">
+       
+        
         
         </div> <!--wrapper-->
         </div><!--color options bar-->
