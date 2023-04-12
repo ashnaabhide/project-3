@@ -16,9 +16,9 @@
       background-color: #ededed;
     }
     img {  
-max-width: 30px;  
-height: 30px;  
-object-fit: fill;
+      max-width: 30px;  
+      height: 30px;  
+      object-fit: fill;
 }  
 
   
@@ -28,15 +28,21 @@ object-fit: fill;
 
 <body>
  <!-- <project-3></project-3> -->
+
+ <div class="container">
  <div class="buttons"> <!-- use part with this -->
-    <button ondragover="JavaScript:alert('change image')">
+    <button class="changeimage">
       <img src="../assets/meow.jpeg" alt="change image">
-  <button class="modifytitle">modify title</button>
+    </button> <!--dimeinsions wrong compared to upload-->
+  <button class="upload">
+    <simple-icon icon="file-upload"></simple-icon>
+  </button>
   <button id="deletelastcard">delete</button>
   <button data-toggle-btn>toggle</button>
   <button class="bg-color">change color</button>
-
-  <project-3></project-3>
+    </div>
+  </div>
+    <project-3></project-3>
 
   <script type="module">
     import "./src/project-3.js";

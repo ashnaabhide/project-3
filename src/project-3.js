@@ -1,4 +1,6 @@
 import { LitElement, html, css } from 'lit';
+import "@lrnwebcomponents/simple-icon/simple-icon.js";
+import "@lrnwebcomponents/simple-icon/lib/simple-icons.js";
 
 const meow=new URL('../assets/meow.jpeg', import.meta.url).href;
 
@@ -27,6 +29,7 @@ class Project3 extends LitElement {
       width: 500px;
       height: 100px;
       border-radius: 5px;
+      display: inline-flex;
     }
 
    
@@ -42,9 +45,17 @@ class Project3 extends LitElement {
 
 
     }
-    .button{
-      
+    .changeimage{
+      float: left;
+      margin-top: 10px;
     }
+
+.upload{
+      float:left;
+      margin-top: 10px;
+      margin-left: 10px;
+}
+
 
     .meow{
       width: 10px;
