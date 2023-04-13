@@ -23,32 +23,19 @@ class Project3 extends LitElement {
     :host {
     }
     .container{
-      background-color: #808080;
-      color: white;
-      text-align: center-left;
-      width: 500px;
-      height: 100px;
-      border-radius: 5px;
-      display: inline-flex;
+      
     }
 
    
 
     .wrapper{
-      background-color: #3e98d3;
-      color: white;
-      margin: 20px 5px;
-      text-align: center-left;
-      width: 200px;
-      height: 60px;
-      border-radius: 5px;
-
+     
 
     }
 
 
     .meow{
-      width: 10px;
+      
 
 
     }
@@ -89,8 +76,6 @@ class Project3 extends LitElement {
 
   render() {
     return html`
-      <div class="container">
-      <div class="wrapper">
        
         
         
