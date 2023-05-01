@@ -88,7 +88,7 @@ export class BadgeTypes extends LitElement {
         `;
     }
     updateType() { 
-        const address = new URL('../assets/type.json', import.meta.url).href;
+        const address = new URL('../assets/badgetypes.json', import.meta.url).href;
        fetch (address).then((response) => { 
         if (response.ok){
               return response.json()
