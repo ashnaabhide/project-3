@@ -1,0 +1,81 @@
+[
+    {
+        "bgColor": "white",
+        "tvButtons": "black",
+        "border": "black",
+        "color": "white",
+        "tvOutline": "black",
+        "upperBlock1": "grey",
+        "upperBlock2": "yellow",
+        "upperBlock3": "blue",
+        "upperBlock4": "green",
+        "upperBlock5": "purple",
+        "upperBlock6": "red",
+        "upperBlock7": "pink",
+        "lowerBlock1": "red",
+        "lowerBlock3": "red",
+        "lowerBlock5": "red",
+        "lowerBlock7": "red",
+        "title": "white", 
+        "authorName": "grah",        
+        "authorTitle": "brah",
+        "company": "omg",
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAE",
+        "image1": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALEGO_logo.svg&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAJ"
+
+
+    },
+    {
+        "bgColor": "white",
+        "tvButtons": "black",
+        "border": "white",
+        "color": "white",
+        "tvOutline": "white",
+        "upperBlock1": "grey",
+        "upperBlock2": "yellow",
+        "upperBlock3": "blue",
+        "upperBlock4": "green",
+        "upperBlock5": "purple",
+        "upperBlock6": "red",
+        "upperBlock7": "pink",
+        "lowerBlock1": "red",
+        "lowerBlock3": "red",
+        "lowerBlock5": "red",
+        "lowerBlock7": "red",
+        "title": "white", 
+        "authorName": "grah",        
+        "authorTitle": "brah",
+        "company": "omg",
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAE",
+        "image1": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALEGO_logo.svg&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAJ"
+
+
+    },
+    {
+        "bgColor": "white",
+        "tvButtons": "black",
+        "border": "black",
+        "color": "white",
+        "tvOutline": "black",
+        "upperBlock1": "grey",
+        "upperBlock2": "yellow",
+        "upperBlock3": "blue",
+        "upperBlock4": "green",
+        "upperBlock5": "purple",
+        "upperBlock6": "red",
+        "upperBlock7": "pink",
+        "lowerBlock1": "red",
+        "lowerBlock3": "red",
+        "lowerBlock5": "red",
+        "lowerBlock7": "red",
+        "title": "white", 
+        "authorName": "grah",        
+        "authorTitle": "brah",
+        "company": "omg",
+        "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAE",
+        "image1": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALEGO_logo.svg&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAJ"
+
+
+    }
+
+]
