@@ -118,7 +118,7 @@ class Project3 extends LitElement {
 
   render() {
   
-    return html`
+    return svg`
 
 <div class='wrapper'>    
 <svg width="500" height="300" id="remix-this" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 1500" data-v-b2c8125e="" data-v-a09c7bce=""><defs data-v-b2c8125e="" data-v-a09c7bce=""><style data-v-b2c8125e="" data-v-a09c7bce="">
