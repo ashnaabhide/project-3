@@ -12,7 +12,7 @@ class Project3 extends LitElement {
       grayscale: {type: Boolean, reflect: true},
 
       title: {type: String}, 
-      border: {type: String, reflect: true}, 
+      cardborder: {type: String, reflect: true}, 
       bgColor: {type: String, reflect: true}, 
       tvButtons: {type: String, reflect: true}, 
       tvOutline: {type: String, reflect: true}, 
@@ -85,7 +85,7 @@ class Project3 extends LitElement {
 
   constructor() {
     super();
-    this.border= 'black';
+    this.cardborder= 'black';
     this.bgColor= 'grey';
     this.tvButtons= 'white';
     this.tvAntenna= 'grey';
@@ -118,7 +118,7 @@ class Project3 extends LitElement {
     this.logo = new URL('../assets/smiley.jpeg', import.meta.url).href;
     this.sepia = false;
     this.grayscale = false;
-    
+
 
 
 
@@ -158,7 +158,7 @@ class Project3 extends LitElement {
 	l3.4-84.8l0.7-96.8l9.4-44.2c0,0,8.8-16.3,13.8-19.1C185,444.8,198.6,445.5,198.6,445.5z" data-v-b2c8125e="" data-v-a09c7bce=""></path></clipPath></defs> <g style="isolation:isolate;" data-v-b2c8125e="" data-v-a09c7bce="">
   <g id="Layer_1" data-name="Layer 1" filter="url(#dropshadow)" data-v-b2c8125e="" data-v-a09c7bce=""><g clip-path="url(#clip-path)" data-v-b2c8125e="" data-v-a09c7bce=""><rect id="main_shadow" x="0" y="0" width="100%" height="100%" fill="#473724" data-v-b2c8125e="" data-v-a09c7bce=""></rect></g></g> 
   <g id="Layer_1" data-name="Layer 1" data-v-b2c8125e="" data-v-a09c7bce="">
-  <rect id="main_background" data-name="main background" x="-0.018" y="-2.766" width="1150.018" height="1506.952" fill="${this.border}" data-v-b2c8125e="" data-v-a09c7bce=""></rect> 
+  <rect id="main_background" data-name="main background" x="-0.018" y="-2.766" width="1150.018" height="1506.952" fill="${this.cardborder}" data-v-b2c8125e="" data-v-a09c7bce=""></rect> 
   <g clip-path="url(#clip-path)" data-v-b2c8125e="" data-v-a09c7bce="">
   <rect id="main_background_fallback" x="-0.018" y="-2.766" width="1150.018" height="1506.952" fill="#152c27" data-v-b2c8125e="" data-v-a09c7bce=""></rect> 
   <g id="TV" data-v-b2c8125e="" data-v-a09c7bce="">

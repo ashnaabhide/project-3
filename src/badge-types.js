@@ -4,18 +4,106 @@ import "./project-3.js";
 
 export class BadgeTypes extends LitElement {
     static get tag(){
-        return 'bage-types';
+        return 'badge-types';
     }
 
         static get properties(){
         return {
-            badges: {type: Array},
+            badges: { type: Array },
             
         }
     }
     constructor() {
         super();
-        this.badges=[]; 
+        this.badges=[
+            {
+                "cardborder": "black",
+                "bgColor": "grey",
+                "tvButtons": "white",
+                "tvAntenna": "grey",
+                "tvOutline": "white",
+                "tvColor": "red",
+                "upperBlock1": "grey",
+                "upperBlock2": "yellow",
+                "upperBlock3": "blue",
+                "upperBlock4": "green",
+                "upperBlock5": "purple",
+                "upperBlock6": "red",
+                "upperBlock7": "pink",
+                "lowerBlock1": "blue",
+                "lowerBlock3": "purple",
+                "lowerBlock5": "green",
+                "lowerBlock7": "grey",
+                "badgeTitle": "MEDIA", 
+                "badgeTitleColor": "white",
+                "authorName": "Bryan Mathers",        
+                "authorTitle": "CEO",
+                "company": "Penn State",
+                "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAE",
+                "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALEGO_logo.svg&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAJ",
+                "sepia": false, 
+                "grayscale": false
+        
+            },
+            {
+                "bgColor": "white",
+                "tvButtons": "black",
+                "cardborder": "white",
+                "tvColor": "white",
+                "tvOutline": "white",
+                "upperBlock1": "grey",
+                "upperBlock2": "yellow",
+                "upperBlock3": "blue",
+                "upperBlock4": "green",
+                "upperBlock5": "purple",
+                "upperBlock6": "red",
+                "upperBlock7": "pink",
+                "lowerBlock1": "red",
+                "lowerBlock3": "red",
+                "lowerBlock5": "red",
+                "lowerBlock7": "red",
+                "badgeTitle": "white", 
+                "authorName": "grah",        
+                "authorTitle": "brah",
+                "company": "omg",
+                "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAE",
+                "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALEGO_logo.svg&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAJ",
+                "sepia": false, 
+                "grayscale": false
+        
+            },
+            {
+                "bgColor": "white",
+                "tvButtons": "black",
+                "cardborder": "black",
+                "tvColor": "white",
+                "tvOutline": "black",
+                "upperBlock1": "grey",
+                "upperBlock2": "yellow",
+                "upperBlock3": "blue",
+                "upperBlock4": "green",
+                "upperBlock5": "purple",
+                "upperBlock6": "red",
+                "upperBlock7": "pink",
+                "lowerBlock1": "red",
+                "lowerBlock3": "red",
+                "lowerBlock5": "red",
+                "lowerBlock7": "red",
+                "badgeTitle": "white", 
+                "authorName": "grah",        
+                "authorTitle": "brah",
+                "company": "omg",
+                "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2F&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAE",
+                "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALEGO_logo.svg&psig=AOvVaw1SEFnqBZqU_zEiWOZiEX9A&ust=1682988631218000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCI8q3z0v4CFQAAAAAdAAAAABAJ",
+                "sepia": false, 
+                "grayscale": false
+        
+            }
+        
+        ]
+        
+        
+        ; 
         
         this.updateType();
       }
@@ -23,11 +111,9 @@ export class BadgeTypes extends LitElement {
         
     static get styles() {
         return css`
-        :host {
-            display: block;
-        }
+        
         .item {
-            display: inline-block
+            display: inline-block;
         }
         
         
@@ -40,8 +126,8 @@ export class BadgeTypes extends LitElement {
 
         `;
     }
-    updateType() {
-        const address = new URL('../assets/badge-list.json', import.meta.url).href;
+    updateType() { 
+        const address = '.../assets/badge-list.json';
         fetch(address).then((response) => {
             if (response.ok) {
                 return response.json()
@@ -50,8 +136,10 @@ export class BadgeTypes extends LitElement {
         })
         .then((data) => {
             this.badges = data;
+            console.log(data);
         });
     }
+
 
     
       

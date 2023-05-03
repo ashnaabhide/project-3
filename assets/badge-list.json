@@ -1,8 +1,6 @@
-
 [
     {
-    
-        "border": "black",
+        "cardborder": "black",
         "bgColor": "grey",
         "tvButtons": "white",
         "tvAntenna": "grey",
@@ -33,7 +31,7 @@
     {
         "bgColor": "white",
         "tvButtons": "black",
-        "border": "white",
+        "cardborder": "white",
         "tvColor": "white",
         "tvOutline": "white",
         "upperBlock1": "grey",
@@ -60,7 +58,7 @@
     {
         "bgColor": "white",
         "tvButtons": "black",
-        "border": "black",
+        "cardborder": "black",
         "tvColor": "white",
         "tvOutline": "black",
         "upperBlock1": "grey",
@@ -86,4 +84,5 @@
     }
 
 ]
+
 
