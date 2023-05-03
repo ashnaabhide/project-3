@@ -118,7 +118,7 @@ class Project3 extends LitElement {
 
   render() {
   
-    return html`
+    return svg`
 
 <div class='wrapper'>  
 
