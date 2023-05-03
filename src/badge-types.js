@@ -9,13 +9,13 @@ export class BadgeTypes extends LitElement {
 
         static get properties(){
         return {
-            types: {type: Array},
+            badges: {type: Array},
             
         }
     }
     constructor() {
         super();
-        this.types=[]; 
+        this.badges=[]; 
         
         this.updateType();
       }
@@ -41,7 +41,7 @@ export class BadgeTypes extends LitElement {
         `;
     }
     updateType() {
-        const address = new URL('../assets/badgelist.json', import.meta.url).href;
+        const address = new URL('../assets/badge-list.json', import.meta.url).href;
         fetch(address).then((response) => {
             if (response.ok) {
                 return response.json()
@@ -65,7 +65,7 @@ export class BadgeTypes extends LitElement {
         <project-3 
         bgColor="${badge.bgColor}", 
         tvButtons="${badge.tvButtons}", 
-        border1="${badge.border}", 
+        cardborder="${badge.border}", 
         tvColor="${badge.tvColor}", 
         tvOutline="${badge.tvOutline}", 
         textColor="${badge.textColor}", 
