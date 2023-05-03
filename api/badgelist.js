@@ -1,9 +1,14 @@
+import { BadgeTypes } from "../src/badge-types";
+
+export default async function handler(req, res) {
+
+
 [
     {
         "bgColor": "white",
         "tvButtons": "black",
         "border": "black",
-        "color": "white",
+        "tvColor": "white",
         "tvOutline": "black",
         "upperBlock1": "grey",
         "upperBlock2": "yellow",
@@ -16,7 +21,8 @@
         "lowerBlock3": "red",
         "lowerBlock5": "red",
         "lowerBlock7": "red",
-        "title": "white", 
+        "badgeTitle": "white", 
+        "badgeTitleColor": "black",
         "authorName": "grah",        
         "authorTitle": "brah",
         "company": "omg",
@@ -79,3 +85,12 @@
     }
 
 ]
+
+res.setHeader('Cache-Control', 'max-age=0, s-maxage=1800');
+res.setHeader("Access-Control-Allow-Credentials", "true");
+res.setHeader("Access-Control-Allow-Origin", "*");
+res.setHeader("Access-Control-Allow-Methods", "GET,OPTIONS,PATCH,DELETE,POST,PUT");
+res.setHeader("Access-Control-Allow-Headers", "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version");
+res.json(BadgeTypes);
+
+}
