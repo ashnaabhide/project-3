@@ -10,8 +10,6 @@ class Project3 extends LitElement {
     return{
       sepia: {type: Boolean, reflect: true}, 
       grayscale: {type: Boolean, reflect: true},
-
-      title: {type: String}, 
       cardborder: {type: String, reflect: true}, 
       bgColor: {type: String, reflect: true}, 
       tvButtons: {type: String, reflect: true}, 
@@ -110,8 +108,8 @@ class Project3 extends LitElement {
     
     this.badgeTitle = 'MEDIA';
     this.badgeTitleColor = 'white';
-    this.authorName = 'Bryan Mathers';
-    this.authorTitle = 'CEO';
+    this.authorName = 'Ashnaa';
+    this.authorTitle = 'Student';
     this.company = 'Penn State';
 
     this.image = new URL('../assets/borzoi.webp', import.meta.url).href;

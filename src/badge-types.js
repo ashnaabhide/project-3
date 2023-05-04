@@ -38,22 +38,8 @@ export class BadgeTypes extends LitElement {
 
         `;
     }
-    updateType() { 
-        const address = '.../assets/badge-list.json';
-        fetch(address).then((response) => {
-            if (response.ok) {
-                return response.json()
-            }
-            return [];
-        })
-        .then((data) => {
-            this.badges = data;
-            console.log(data);
-        });
-    }
+ 
 
-
-    
       
 
         
