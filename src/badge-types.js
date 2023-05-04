@@ -10,6 +10,7 @@ export class BadgeTypes extends LitElement {
         static get properties(){
         return {
             badges: { type: Array },
+        
             
         }
     }

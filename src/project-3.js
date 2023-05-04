@@ -5,6 +5,7 @@ class Project3 extends LitElement {
     return 'project-3';
   }
 
+  
 
   static get properties() {
     return{
